@@ -5,7 +5,11 @@ import sys
 
 
 def main():
+<<<<<<< HEAD
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ninjaGold.settings')
+=======
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'random_word_generator.settings')
+>>>>>>> random word generator
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

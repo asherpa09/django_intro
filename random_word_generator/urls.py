@@ -1,4 +1,4 @@
-"""ninjaGold URL Configuration
+"""random_word_generator URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -17,6 +17,6 @@ Including another URLconf
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include('ninjaGoldApp.urls')),
+    path('', include('random_word.urls')),    
     #path('admin/', admin.site.urls),
 ]
